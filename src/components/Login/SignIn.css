@@ -1,0 +1,150 @@
+/* Centering the SignIn container and applying the background */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../assets/newspaperbg.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  overflow: hidden; /* Prevents any overflow of content */
+}
+
+/* Styling the SignIn Form with subtle shadows and padding */
+.signin-form {
+  background: rgba(255, 255, 255, 0.9); /* Slightly translucent white background */
+  padding: 25px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer shadow effect */
+  width: 100%;
+  max-width: 320px; /* Reduce form width for mobile */
+  text-align: center;
+  backdrop-filter: blur(8px); /* Subtle blur effect behind form */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+}
+
+/* SignIn buttons with modern style */
+.google-button,
+.email-signin-button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px; /* Slightly more rounded for modern feel */
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Google SignIn Button Style */
+.google-button {
+  background-color: #4285f4;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.google-button:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+  box-shadow: 0 6px 12px rgba(66, 133, 244, 0.3); /* Adds shadow on hover */
+}
+
+/* Email SignIn Button Style */
+.email-signin-button {
+  background-color: #34a853;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.email-signin-button:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+  box-shadow: 0 6px 12px rgba(52, 168, 83, 0.3); /* Adds shadow on hover */
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Divider between buttons (for visual separation) */
+.divider {
+  margin: 12px 0;
+  font-size: 13px;
+  color: #999;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Form Input Field Styling */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9f9f9; /* Light background color for inputs */
+}
+
+/* Focused Input Field */
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #4285f4; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 8px rgba(66, 133, 244, 0.3); /* Blue glow on focus */
+}
+
+/* Add responsive adjustments */
+@media (max-width: 480px) {
+  .signin-form {
+    padding: 20px;
+    max-width: 90%; /* Make form width smaller for very small screens */
+  }
+
+  .google-button,
+  .email-signin-button {
+    padding: 12px;
+    font-size: 14px; /* Slightly smaller button size */
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    padding: 12px; /* Adjust input size on smaller screens */
+    font-size: 14px; /* Smaller font size for inputs */
+  }
+}

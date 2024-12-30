@@ -1,0 +1,125 @@
+/* General Container Styling */
+.chart-and-payout-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Chart Styling */
+.chart-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#authorChart {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Payout Input Styling */
+.payout-input {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.payout-input label {
+  font-size: 16px;
+  color: #333;
+}
+
+.payout-input input {
+  width: 150px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payout-input input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+/* Table Container for Fixed Header */
+.responsive-table-payout {
+  max-height: 300px; /* Set the height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.responsive-table-articles-container{
+  max-height: 500px; /* Set the height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  position: sticky;
+  top: 0; /* Sticks header to the top of the container */
+  background-color: #3498db;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  z-index: 1; /* Ensures header stays above table rows */
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .payout-input {
+    flex-direction: column;
+  }
+
+  table th,
+  table td {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  table th,
+  table td {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
