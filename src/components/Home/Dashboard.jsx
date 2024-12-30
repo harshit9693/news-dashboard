@@ -31,7 +31,7 @@ function Dashboard({ searchQuery, filter, onFilteredArticlesChange }) {
 
       try {
         const response = await axios.get(
-          "https://newsapi.org/v2/everything?q=technology&apiKey=1a3aae0a804c4e3ea2365c1e00d14a5e"
+          `https://newsapi.org/v2/everything?q=technology&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
         );
         const data = response.data.articles.map((article, index) => ({
           id: index,
