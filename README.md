@@ -58,6 +58,26 @@ A responsive web application that provides a dashboard for viewing news articles
 - **Responsive Design**: CSS, Tailwind CSS
 - **Build Tools**: Webpack, Babel
 
+## Usage
+
+- **Login**: Use your credentials to log in to the application.
+
+- **Search Articles**: Use the search bar to find articles by keywords.
+
+- **Filter Articles**: Apply filters to narrow down the articles based on:
+  - Author
+  - Date range
+  - Type (e.g., news, blogs)
+
+- **View Payouts**: Check the calculated payouts based on the articles viewed.
+
+- **Export Reports**: Export the payout reports in your desired format:
+  - PDF
+  - CSV
+  - Google Sheets
+
+- **Toggle Dark Mode**: Switch between light and dark themes for better visibility.
+
 ## Installation
 
 1. Clone the repository:
@@ -66,36 +86,25 @@ A responsive web application that provides a dashboard for viewing news articles
    git clone https://github.com/yourusername/news-dashboard.git
 
    ```
-
 2. Navigate to the project directory:
 
-````bash
-cd news-dashboard
+   ```bash
+   cd news-dashboard
+
+   ```
 3. Install the dependencies:
-```bash
-npm install
+
+   ```bash
+   npm install
+
+   ```
 4. Start the development server:
-```bash
-npm start
+
+   ```bash
+   npm start
+
+   ```
+  
 5. Open your browser and go to `http://localhost:3000`.
 
-## Usage
 
-- **Login**: Use your credentials to log in to the application.
-
-- **Search Articles**: Use the search bar to find articles by keywords.
-
-- **Filter Articles**: Apply filters to narrow down the articles based on:
-- Author
-- Date range
-- Type (e.g., news, blogs)
-
-- **View Payouts**: Check the calculated payouts based on the articles viewed.
-
-- **Export Reports**: Export the payout reports in your desired format:
-- PDF
-- CSV
-- Google Sheets
-
-- **Toggle Dark Mode**: Switch between light and dark themes for better visibility.
-````
