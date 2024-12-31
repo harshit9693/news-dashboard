@@ -23,10 +23,19 @@ Preferable to use on the desktop
 - [Usage](#usage)
 
 ## Preview
+
+### Login Page
 ![Login Page](./public/lp.png)
+
+### Dashboard in Light Mode
 ![Dashboard Light mode](./public/dm.png)
+
+### Dashboard in Dark Mode
 ![Dashboard Dark mode](./public/dn.png)
+
+### Payout and Article List
 ![Payout and Article List](./public/d2.png)
+
 
 ## Features
 
