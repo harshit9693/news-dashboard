@@ -16,10 +16,17 @@ Preferable to use on the desktop
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+
+## Preview
+![Login Page](./public/lp.png)
+![Dashboard Light mode](./public/dm.png)
+![Dashboard Dark mode](./public/dn.png)
+![Payout and Article List](./public/d2.png)
 
 ## Features
 
