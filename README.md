@@ -7,6 +7,7 @@ A responsive web application that provides a dashboard for viewing news articles
 You can access the News Dashboard at the following link:
 
 [News Dashboard](https://news-dashboard-j886.onrender.com/)
+Preferable to use on the desktop
 
 ## Login Instructions
 
