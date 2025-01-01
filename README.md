@@ -9,6 +9,9 @@ You can access the News Dashboard at the following link:
 [News Dashboard](https://news-dashboard-j886.onrender.com/)
 Preferable to use on the desktop
 
+use email : demo@gmail.com \
+password : 123456
+
 ## Login Instructions
 
 1. Click on the **Login with Google** button on the home page.
